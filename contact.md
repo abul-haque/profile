@@ -6,8 +6,8 @@ permalink: /contact/
 
 # Contact
 
-- Email: <you@domain.tld>  
-- GitHub: <https://github.com/<your-username>>  
-- LinkedIn: <https://www.linkedin.com/in/<your-handle>/>  
+- Email: <abul.ahsan.md.mahmudul.haque@hnikt.no>  
+- GitHub: <https://github.com/abul-haque>  
+- LinkedIn: <https://www.linkedin.com/in/abul-haque/>  
 
 Prefer email for architecture requests; I’m happy to chat about cloud strategy and automation.
