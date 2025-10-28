@@ -1,0 +1,12 @@
+title: "Haque Abul Ahsan Md Mahmudul"
+description: "Senior IT-arkitekt — personal profile"
+# Use Minima as a remote theme (pin to a known ref for stability):
+plugins:
+  - jekyll-remote-theme
+remote_theme: jekyll/minima@v2.5.2
+
+# Choose a skin (classic | dark | auto | solarized-light | solarized-dark)
+minima:
+  skin: classic
+
+url: "https://<your-username>.github.io"
