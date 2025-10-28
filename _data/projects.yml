@@ -1,6 +1,6 @@
 - name: Integration Platform Revamp
   blurb: Event-driven integration with security-by-design, improved latency and observability.
-  link:  https://github.com/<your-username>/<repo>
+  link:  https://github.com/abul-haque/<repo>
 
 - name: Governance-as-Code
   blurb: IaC blueprints and guardrails with policy packs and automated drift checks.
