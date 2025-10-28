@@ -1,11 +1,8 @@
-/* assets/css/style.scss */
 ---
 ---
-@import "{{ site.theme }}";  /* imports your active built‑in theme */
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}", "minima/initialize";
 
-/* >>> Pick ONE palette and paste below (example: Arctic Night) */
-
-/* Arctic Night */
+/* Arctic Night palette */
 :root {
   --bg: #0b0e14;
   --surface: #11151c;
@@ -20,10 +17,6 @@ a:hover, a:focus { color: color-mix(in srgb, var(--accent) 85%, white); }
 hr { border-color: color-mix(in srgb, var(--text) 20%, transparent); }
 code, pre { background: color-mix(in srgb, var(--surface) 85%, #0000); }
 
-.nav a, .site-title, .site-nav a { color: var(--text); }
-.nav a:hover, .site-nav a:hover { color: var(--accent); }
-
-/* Optional “surface” styling for lists/sections (Projects, etc.) */
 .projects, .post-list, .page-content > *:where(section, article) {
   background: var(--surface);
   padding: .75rem 1rem;
