@@ -11,7 +11,8 @@ permalink: /projects/
   <li>
     <strong>{{ p.name }}</strong> — {{ p.blurb }}
     {% if p.link %}
-      <br><a href="{{ p.link | escape }}" target="_blank" rel="
+      <br><a hrefnk | escape }}View</a>
+    {% endif %}
+  </li>
 {% endfor %}
 </ul>
-``
