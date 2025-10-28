@@ -8,5 +8,11 @@ remote_theme: jekyll/minima@1e8a445
 # Choose a skin (classic | dark | auto | solarized-light | solarized-dark)
 minima:
   skin: classic
+  nav_pages:
+    - about.md
+    - projects.md
+    - resume.md
+    - contact.md
+
 
 url: "https://abul-haque.github.io"
