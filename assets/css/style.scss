@@ -1,7 +1,32 @@
 /* assets/css/style.scss */
 ---
 ---
-@import "minima/skins/{{ site.minima.skin | default: 'classic' }}", "minima/initialize";
+@import "{{ site.theme }}";  /* imports your active built‑in theme */
 
-/* your overrides here */
-``
+/* >>> Pick ONE palette and paste below (example: Arctic Night) */
+
+/* Arctic Night */
+:root {
+  --bg: #0b0e14;
+  --surface: #11151c;
+  --text: #e6e9ef;
+  --muted: #9aa4b2;
+  --accent: #5e81ac;
+}
+
+html, body { background: var(--bg); color: var(--text); }
+a { color: var(--accent); }
+a:hover, a:focus { color: color-mix(in srgb, var(--accent) 85%, white); }
+hr { border-color: color-mix(in srgb, var(--text) 20%, transparent); }
+code, pre { background: color-mix(in srgb, var(--surface) 85%, #0000); }
+
+.nav a, .site-title, .site-nav a { color: var(--text); }
+.nav a:hover, .site-nav a:hover { color: var(--accent); }
+
+/* Optional “surface” styling for lists/sections (Projects, etc.) */
+.projects, .post-list, .page-content > *:where(section, article) {
+  background: var(--surface);
+  padding: .75rem 1rem;
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--text) 8%, transparent);
+}
