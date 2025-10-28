@@ -1,0 +1,9 @@
+- name: Integration Platform Revamp
+  blurb: Event-driven integration with security-by-design, improved latency and observability.
+  link:  https://github.com/<your-username>/<repo>
+
+- name: Governance-as-Code
+  blurb: IaC blueprints and guardrails with policy packs and automated drift checks.
+  link:  https://example.com/case-study
+- name: Architecture Playbook
+  blurb: Lightweight decision records, standards, and reusable reference architectures.
