@@ -3,7 +3,7 @@ description: "Senior IT-arkitekt — personal profile"
 # Use Minima as a remote theme (pin to a known ref for stability):
 plugins:
   - jekyll-remote-theme
-remote_theme: jekyll/minima@v2.5.2
+remote_theme: ekyll/minima@1e8a445
 
 # Choose a skin (classic | dark | auto | solarized-light | solarized-dark)
 minima:
