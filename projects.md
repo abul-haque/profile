@@ -10,5 +10,8 @@ permalink: /projects/
 {% for p in site.data.projects %}
   <li>
     <strong>{{ p.name }}</strong> — {{ p.blurb }}
-    {% if p.link %}<br><a href="{{ p.link }}" target="_blank" rel="ndfor %}
+    {% if p.link %}
+      <br><a href="{{ p.link | escape }}" target="_blank" rel="
+{% endfor %}
 </ul>
+``
