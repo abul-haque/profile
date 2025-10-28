@@ -1,8 +1,7 @@
+/* assets/css/style.scss */
 ---
 ---
-/* Minima v3+ expects you to import a skin and initialize styles: */
 @import "minima/skins/{{ site.minima.skin | default: 'classic' }}", "minima/initialize";
 
-/* Your minimal tweaks */
-:root { --accent: #0366d6; }
-a { color: var(--accent); }
+/* your overrides here */
+``
